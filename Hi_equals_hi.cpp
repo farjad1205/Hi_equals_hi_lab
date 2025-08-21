@@ -48,12 +48,18 @@ int main()
 {
     // cout << toLower('A') << endl;
 
-    cout << "The comparison for" << " String one " << "and" << " string two "
+    cout << "The comparison for" << " String one " << "and" << " string two"
          << " returns " << strcmp_case_insensitive("String one", "string two") << endl;
 
-    cout << "The comparison for" << " String one " << "and" << " string one "
+    cout << "The comparison for" << " String one " << "and" << " string one"
          << " returns " << strcmp_case_insensitive("String one", "string one") << endl;
 
-    cout << "The comparison for" << " String two " << "and" << " string one "
+    cout << "The comparison for" << " String two " << "and" << " string one"
          << " returns " << strcmp_case_insensitive("String two", "string one") << endl;
+
+    cout << "The comparison for" << " String " << "and" << " string one"
+         << " returns " << strcmp_case_insensitive("String", "string one") << endl;
+
+    cout << "The comparison for" << " empty string " << "and" << " string one"
+         << " returns " << strcmp_case_insensitive("", "string one") << endl;
 }
