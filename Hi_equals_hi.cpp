@@ -62,4 +62,7 @@ int main()
 
     cout << "The comparison for" << " empty string " << "and" << " string one"
          << " returns " << strcmp_case_insensitive("", "string one") << endl;
+
+    cout << "The comparison for" << " speci@l Char! " << "and" << " string one"
+         << " returns " << strcmp_case_insensitive("speci@l Char!", "string one") << endl;
 }
